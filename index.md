@@ -7,12 +7,14 @@ This page is work in progress...
 ### Background {#bg}
 
 The major problem of statistical inference in functional/structural MRI analysis is the multiple testing problem that emerges due to its massively univariate approach. The problem arises when a statisical test is perfomed on all elements of the statistical map (i.e. all voxels)
-separately. Since at every test we allow a small amount of uncertainty (usually 5\%) of making a so-called false positive decision (rejecting the null hypothesis while in reality it is true), performing multiple tests greatly increases the family-wise error rate. That is, when performing multiple tests, the chances that we make at least one false positive decision increases dramatically. For example, when doing 1000 tests at 5\%, we expect 50 tests to be significant while they are actually not.
+separately. Since at every test we allow a small amount of uncertainty (usually 5\%) of making a so-called false positive decision (rejecting the null hypothesis while in reality it is true), performing multiple tests greatly increases the family-wise error rate. That is, when performing multiple tests, the chances that we make at least one false positive decision increases dramatically. 
 
 #### Standard correction methods
+
 Explain Bonferroni, RFT, and FDR.
 
 #### Closed-testing procedures
+
 Explain closed-testing.
 
 #### References
